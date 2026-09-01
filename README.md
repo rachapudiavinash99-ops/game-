@@ -1,4 +1,4 @@
-# GAMEVERSE — Modern Python Full-Stack Gaming Platform
+# GAMEVERSE â€” Modern Python Full-Stack Gaming Platform
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -6,7 +6,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.2%2B-3178c6.svg?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4%2B-38bdf8.svg?logo=tailwind-css)](https://tailwindcss.com/)
 [![WebSockets](https://img.shields.io/badge/WebSockets-Real--Time-orange.svg)](https://websockets.readthedocs.io/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
@@ -19,26 +19,26 @@
 ## 2. System Architecture
 
 ```
-                               ┌──────────────────────────────────────────────┐
-                               │         React 18 + TypeScript Client         │
-                               │   Vite, Tailwind CSS, Lucide Icons, Audio    │
-                               └──────────────────────┬───────────────────────┘
-                                                      │ REST APIs & WebSockets
-                                                      ▼
-                               ┌──────────────────────────────────────────────┐
-                               │           FastAPI Backend Service            │
-                               │  - JWT Authentication & RBAC                 │
-                               │  - Authoritative Scoring & Streak Multipliers │
-                               │  - Dynamic XP Progression & Level Formula    │
-                               │  - Real-Time WebSocket Multiplayer Engine    │
-                               │  - Task Engine & Auto-Unlock Achievements    │
-                               └───────────────┬──────────────┬───────────────┘
-                                               │              │
-                                               ▼              ▼
-                               ┌────────────────────────┐   ┌─────────────────┐
-                               │   SQLAlchemy Models    │   │ SQLite / Postgre│
-                               │   (Relational Schema)  │   │ Database Engine │
-                               └────────────────────────┘   └─────────────────┘
+                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                               â”‚         React 18 + TypeScript Client         â”‚
+                               â”‚   Vite, Tailwind CSS, Lucide Icons, Audio    â”‚
+                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                                      â”‚ REST APIs & WebSockets
+                                                      â–¼
+                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                               â”‚           FastAPI Backend Service            â”‚
+                               â”‚  - JWT Authentication & RBAC                 â”‚
+                               â”‚  - Authoritative Scoring & Streak Multipliers â”‚
+                               â”‚  - Dynamic XP Progression & Level Formula    â”‚
+                               â”‚  - Real-Time WebSocket Multiplayer Engine    â”‚
+                               â”‚  - Task Engine & Auto-Unlock Achievements    â”‚
+                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+                                               â”‚              â”‚
+                                               â–¼              â–¼
+                               â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+                               â”‚   SQLAlchemy Models    â”‚   â”‚ SQLite / Postgreâ”‚
+                               â”‚   (Relational Schema)  â”‚   â”‚ Database Engine â”‚
+                               â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -192,4 +192,4 @@ pytest backend/tests -v
 ---
 
 ## 11. License
-This project is open-source software licensed under the MIT License.
+Proprietary software. All rights reserved.
