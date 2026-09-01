@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-export const API_BASE_URL = 'http://127.0.0.1:8008/api/v1';
+const host = typeof window !== 'undefined' ? window.location.hostname : '127.0.0.1';
+export const API_BASE_URL = `http://${host}:8008/api/v1`;
 
 const api = axios.create({
   baseURL: API_BASE_URL,

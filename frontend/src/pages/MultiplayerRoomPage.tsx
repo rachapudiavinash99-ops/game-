@@ -53,7 +53,8 @@ export const MultiplayerRoomPage: React.FC = () => {
       return;
     }
 
-    const wsUrl = `ws://127.0.0.1:8008/ws/multiplayer/${roomCode}?token=${token}`;
+    const host = window.location.hostname || '127.0.0.1';
+    const wsUrl = `ws://${host}:8008/ws/multiplayer/${roomCode}?token=${token}`;
     const ws = new WebSocket(wsUrl);
     wsRef.current = ws;
 

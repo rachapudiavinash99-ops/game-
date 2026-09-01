@@ -30,6 +30,7 @@ export const GameArenaPage: React.FC = () => {
   const [timeRemaining, setTimeRemaining] = useState<number>(20);
   const [totalTime, setTotalTime] = useState<number>(20);
   const [loading, setLoading] = useState<boolean>(true);
+  const [error, setError] = useState<string | null>(null);
   const [lives, setLives] = useState<number>(3);
   const [currentScore, setCurrentScore] = useState<number>(0);
   const [currentStreak, setCurrentStreak] = useState<number>(0);
@@ -52,6 +53,9 @@ export const GameArenaPage: React.FC = () => {
     if (topicId) reqPayload.topic_id = parseInt(topicId);
     if (difficulty) reqPayload.difficulty = difficulty;
 
+    setError(null);
+    setLoading(true);
+
     api.post('/games/start', reqPayload)
       .then(res => {
         const sess: GameSession = res.data;
@@ -67,8 +71,9 @@ export const GameArenaPage: React.FC = () => {
         questionStartTimeRef.current = Date.now();
         setLoading(false);
       })
-      .catch(() => {
+      .catch((err) => {
         setLoading(false);
+        setError(err.response?.data?.message || err.response?.data?.detail || 'Failed to start game session.');
       });
 
     return () => {
@@ -187,6 +192,30 @@ export const GameArenaPage: React.FC = () => {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [session, currentIndex, answerResult, totalTime]);
+
+  if (error) {
+    return (
+      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4 text-center px-4">
+        <AlertCircle className="w-12 h-12 text-rose-500 mx-auto" />
+        <h3 className="text-xl font-bold text-white font-mono">COULD NOT START GAME</h3>
+        <p className="text-sm text-slate-400 max-w-md">{error}</p>
+        <div className="flex gap-3 pt-2">
+          <button 
+            onClick={() => window.location.reload()} 
+            className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 rounded-xl font-bold text-white text-xs font-mono shadow-neon-indigo cursor-pointer"
+          >
+            Retry Match
+          </button>
+          <button 
+            onClick={() => navigate('/dashboard')} 
+            className="px-5 py-2.5 glass-panel text-slate-300 hover:text-white rounded-xl font-bold text-xs font-mono cursor-pointer"
+          >
+            Dashboard
+          </button>
+        </div>
+      </div>
+    );
+  }
 
   if (loading || !session) {
     return (
