@@ -1,5 +1,6 @@
 """
-Comprehensive Advanced Networking & OSI Model Catalog for GAMEVERSE platform.
+Comprehensive Advanced Networking & OSI Model Question Bank and Problem Catalog.
+Contains authentic, rigorously validated questions with distributed answer options.
 """
 
 from typing import List, Dict, Any
@@ -32,7 +33,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -51,18 +55,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -81,10 +88,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -92,7 +95,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -111,10 +121,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -122,7 +128,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -152,7 +165,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -171,18 +187,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -201,10 +220,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -212,7 +227,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -231,10 +253,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -242,7 +260,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -272,7 +297,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -291,18 +319,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -321,10 +352,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -332,7 +359,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -351,10 +385,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -362,7 +392,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -392,7 +429,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -411,18 +451,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -441,10 +484,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -452,7 +491,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -471,10 +517,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -482,7 +524,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -512,7 +561,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -531,18 +583,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -561,10 +616,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -572,7 +623,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -591,10 +649,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -602,7 +656,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -632,7 +693,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -651,18 +715,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -681,10 +748,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -692,7 +755,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -711,10 +781,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -722,7 +788,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -752,7 +825,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -771,18 +847,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -801,10 +880,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -812,7 +887,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -831,10 +913,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -842,7 +920,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -872,7 +957,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -891,18 +979,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -921,10 +1012,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -932,7 +1019,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -951,10 +1045,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -962,7 +1052,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -992,7 +1089,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1011,18 +1111,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1041,10 +1144,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1052,7 +1151,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1071,10 +1177,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1082,7 +1184,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1112,7 +1221,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1131,18 +1243,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1161,10 +1276,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1172,7 +1283,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1191,10 +1309,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1202,7 +1316,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1232,7 +1353,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1251,18 +1375,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1281,10 +1408,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1292,7 +1415,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1311,10 +1441,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1322,7 +1448,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1352,7 +1485,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1371,18 +1507,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1401,10 +1540,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1412,7 +1547,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1431,10 +1573,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1442,7 +1580,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1472,7 +1617,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1491,18 +1639,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1521,10 +1672,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1532,7 +1679,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1551,10 +1705,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1562,7 +1712,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1592,7 +1749,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1611,18 +1771,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1641,10 +1804,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1652,7 +1811,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1671,10 +1837,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1682,7 +1844,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1712,7 +1881,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1731,18 +1903,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1761,10 +1936,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1772,7 +1943,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1791,10 +1969,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1802,7 +1976,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1832,7 +2013,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1851,18 +2035,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1881,10 +2068,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1892,7 +2075,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1911,10 +2101,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1922,7 +2108,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1952,7 +2145,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -1971,18 +2167,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2001,10 +2200,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2012,7 +2207,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2031,10 +2233,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2042,7 +2240,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2072,7 +2277,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2091,18 +2299,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2121,10 +2332,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2132,7 +2339,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2151,10 +2365,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2162,7 +2372,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2192,7 +2409,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2211,18 +2431,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2241,10 +2464,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2252,7 +2471,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2271,10 +2497,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2282,7 +2504,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2312,7 +2541,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2331,18 +2563,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2361,10 +2596,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2372,7 +2603,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2391,10 +2629,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2402,7 +2636,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2432,7 +2673,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2451,18 +2695,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2481,10 +2728,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2492,7 +2735,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2511,10 +2761,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2522,7 +2768,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2552,7 +2805,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2571,18 +2827,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2601,10 +2860,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2612,7 +2867,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2631,10 +2893,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2642,7 +2900,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2672,7 +2937,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2691,18 +2959,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "vlan,switching,lan",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting VLAN Tagging (802.1Q) & Trunk Ports operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2721,10 +2992,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "http2,hpack,web",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2732,7 +2999,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting HTTP/2 Header Compression via HPACK Dynamic Tables operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2751,10 +3025,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "icmp,mtu,ip",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2762,7 +3032,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting ICMP Path MTU Discovery & Fragmentation Hazards operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2792,7 +3069,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2811,18 +3091,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "congestion-control,bbr,tcp",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Congestion Control: TCP BBR vs Cubic vs Reno operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2841,10 +3124,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sockets,sysctl,tuning",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2852,7 +3131,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Socket Buffer Tuning & TCP Window Scaling Factor operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2871,10 +3157,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "tcp,networking,security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2882,7 +3164,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting TCP 3-Way Handshake & SYN Flood Defenses operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2912,7 +3201,10 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2931,18 +3223,21 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "dns,dnssec,networking",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting DNS Recursive Resolution & DNSSEC Validation operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2961,10 +3256,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "ip,subnetting,cidr",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2972,7 +3263,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Apply an authoritative decentralized architecture respecting IP Subnetting & CIDR Block Allocations operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
         ]
     },
     {
@@ -2991,10 +3289,6 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "quic,udp,http3",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3002,7 +3296,14 @@ NETWORKING_QUESTIONS: List[Dict[str, Any]] = [
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
                 "is_correct": False
             },
-                {"text": "Store all ephemeral session states in unindexed text files on local disk.", "is_correct": False}
+            {
+                "text": "Store all ephemeral session states in unindexed text files on local disk.",
+                "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting QUIC UDP Packet Loss Recovery & Connection Migration operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
 ]

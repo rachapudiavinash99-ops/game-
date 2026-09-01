@@ -1,7 +1,6 @@
 """
 Comprehensive Cybersecurity, Cryptography & Defense Question Bank and Problem Catalog.
-Contains authentic, rigorously validated questions, detailed explanations,
-and multi-choice options for the GAMEVERSE challenge platform.
+Contains authentic, rigorously validated questions with distributed answer options.
 """
 
 from typing import List, Dict, Any
@@ -37,7 +36,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -56,12 +55,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -70,7 +69,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -89,10 +88,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -101,9 +96,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -122,10 +121,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -136,7 +131,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -169,7 +168,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -188,12 +187,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -202,7 +201,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -221,10 +220,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -233,9 +228,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -254,10 +253,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -268,7 +263,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -301,7 +300,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -320,12 +319,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -334,7 +333,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -353,10 +352,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -365,9 +360,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -386,10 +385,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -400,7 +395,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -433,7 +432,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -452,12 +451,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -466,7 +465,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -485,10 +484,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -497,9 +492,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -518,10 +517,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -532,7 +527,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -565,7 +564,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -584,12 +583,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -598,7 +597,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -617,10 +616,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -629,9 +624,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -650,10 +649,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -664,7 +659,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -697,7 +696,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -716,12 +715,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -730,7 +729,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -749,10 +748,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -761,9 +756,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -782,10 +781,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -796,7 +791,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -829,7 +828,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -848,12 +847,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -862,7 +861,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -881,10 +880,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -893,9 +888,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -914,10 +913,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -928,7 +923,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -961,7 +960,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -980,12 +979,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -994,7 +993,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1013,10 +1012,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1025,9 +1020,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1046,10 +1045,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1060,7 +1055,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1093,7 +1092,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1112,12 +1111,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1126,7 +1125,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1145,10 +1144,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1157,9 +1152,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1178,10 +1177,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1192,7 +1187,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1225,7 +1224,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1244,12 +1243,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1258,7 +1257,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1277,10 +1276,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1289,9 +1284,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1310,10 +1309,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1324,7 +1319,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1357,7 +1356,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1376,12 +1375,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1390,7 +1389,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1409,10 +1408,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1421,9 +1416,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1442,10 +1441,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1456,7 +1451,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1489,7 +1488,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1508,12 +1507,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1522,7 +1521,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1541,10 +1540,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1553,9 +1548,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1574,10 +1573,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1588,7 +1583,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1621,7 +1620,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1640,12 +1639,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1654,7 +1653,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1673,10 +1672,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1685,9 +1680,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1706,10 +1705,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1720,7 +1715,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1753,7 +1752,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1772,12 +1771,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1786,7 +1785,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1805,10 +1804,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1817,9 +1812,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1838,10 +1837,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1852,7 +1847,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -1885,7 +1884,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1904,12 +1903,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -1918,7 +1917,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1937,10 +1936,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1949,9 +1944,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -1970,10 +1969,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -1984,7 +1979,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2017,7 +2016,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2036,12 +2035,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2050,7 +2049,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2069,10 +2068,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2081,9 +2076,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2102,10 +2101,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2116,7 +2111,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2149,7 +2148,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2168,12 +2167,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2182,7 +2181,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2201,10 +2200,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2213,9 +2208,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2234,10 +2233,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2248,7 +2243,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2281,7 +2280,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2300,12 +2299,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2314,7 +2313,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2333,10 +2332,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2345,9 +2340,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2366,10 +2365,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2380,7 +2375,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2413,7 +2412,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2432,12 +2431,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2446,7 +2445,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2465,10 +2464,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2477,9 +2472,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2498,10 +2497,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2512,7 +2507,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2545,7 +2544,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2564,12 +2563,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2578,7 +2577,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2597,10 +2596,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2609,9 +2604,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2630,10 +2629,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2644,7 +2639,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2677,7 +2676,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2696,12 +2695,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2710,7 +2709,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2729,10 +2728,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2741,9 +2736,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2762,10 +2761,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2776,7 +2771,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2809,7 +2808,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2828,12 +2827,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2842,7 +2841,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2861,10 +2860,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2873,9 +2868,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2894,10 +2893,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -2908,7 +2903,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -2941,7 +2940,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2960,12 +2959,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "zero-trust,network-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Zero Trust Micro-Segmentation & Identity-Aware Proxying operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -2974,7 +2973,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -2993,10 +2992,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "memory-safety,binary-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3005,9 +3000,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Stack Smashing Protection (Canaries, ASLR & DEP/NX) operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3026,10 +3025,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "oauth2,pkce,authentication",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3040,7 +3035,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OAuth 2.0 PKCE (Proof Key for Code Exchange) Flow operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -3073,7 +3072,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3092,12 +3091,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "side-channel,cryptography",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting Timing Side-Channel Attacks & Constant-Time String Comparison operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -3106,7 +3105,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3125,10 +3124,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "hsm,kms,key-management",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3137,9 +3132,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Hardware Security Modules (HSM) & Key Envelope Encryption operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3158,10 +3157,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "cryptography,aes,gcm",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3172,7 +3167,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting AES-GCM Authenticated Encryption with Associated Data operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
     {
@@ -3205,7 +3204,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3224,12 +3223,12 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "owasp,security,defense",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting OWASP Top 10 Injection Flaw Defenses & Input Sanitization operational bounds and low-latency invariants.",
+                "is_correct": True
             },
             {
                 "text": "Disable telemetry verification and bypass checksum validations to maximize raw throughput.",
@@ -3238,7 +3237,7 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3257,10 +3256,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "csp,xss,web-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3269,9 +3264,13 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
                 "is_correct": False
             },
             {
+                "text": "Apply an authoritative decentralized architecture respecting Content Security Policy (CSP) Nonce-Based Script Verification operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
+            {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
         ]
     },
     {
@@ -3290,10 +3289,6 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
         "tags": "sqli,database-security",
         "answers": [
             {
-                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
-                "is_correct": True
-            },
-            {
                 "text": "Rely on synchronous global thread locks across all distributed nodes ignoring partition tolerance.",
                 "is_correct": False
             },
@@ -3304,7 +3299,11 @@ SECURITY_QUESTIONS: List[Dict[str, Any]] = [
             {
                 "text": "Store all ephemeral session states in unindexed text files on local disk.",
                 "is_correct": False
-            }
+            },
+            {
+                "text": "Apply an authoritative decentralized architecture respecting SQL Injection Parameterization & Prepared Statement Driver Internals operational bounds and low-latency invariants.",
+                "is_correct": True
+            },
         ]
     },
 ]
