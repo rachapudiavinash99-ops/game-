@@ -7,6 +7,15 @@ class SoundEngine {
     // Initialized lazily on first user interaction
   }
 
+  isMuted(): boolean {
+    return !this.enabled;
+  }
+
+  toggleMute(): boolean {
+    this.enabled = !this.enabled;
+    return !this.enabled;
+  }
+
   private initCtx() {
     if (!this.ctx && typeof window !== 'undefined') {
       const AudioCtx = window.AudioContext || (window as any).webkitAudioContext;

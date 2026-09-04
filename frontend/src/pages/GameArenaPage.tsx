@@ -9,7 +9,8 @@ import {
   XCircle, 
   Clock, 
   AlertCircle,
-  Zap
+  Zap,
+  Sparkles
 } from 'lucide-react';
 import api from '../services/api';
 import { GameSession, Task, Answer } from '../types';
@@ -149,7 +150,6 @@ export const GameArenaPage: React.FC = () => {
     if (!session || !answerResult) return;
 
     if (answerResult.is_game_over || currentIndex + 1 >= session.questions.length) {
-      // Finalize match and transition to result page
       api.post(`/games/finish/${session.id}`).then(res => {
         sound.playLevelUp();
         navigate('/play/result', { state: { result: res.data } });
@@ -195,14 +195,14 @@ export const GameArenaPage: React.FC = () => {
 
   if (error) {
     return (
-      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4 text-center px-4">
+      <div className="min-h-[60vh] flex flex-col items-center justify-center space-y-4 text-center px-4 animate-scaleIn">
         <AlertCircle className="w-12 h-12 text-rose-500 mx-auto" />
         <h3 className="text-xl font-bold text-white font-mono">COULD NOT START GAME</h3>
         <p className="text-sm text-slate-400 max-w-md">{error}</p>
         <div className="flex gap-3 pt-2">
           <button 
             onClick={() => window.location.reload()} 
-            className="px-5 py-2.5 bg-indigo-600 hover:bg-indigo-500 rounded-xl font-bold text-white text-xs font-mono shadow-neon-indigo cursor-pointer"
+            className="px-5 py-2.5 bg-violet-600 hover:bg-violet-500 rounded-xl font-bold text-white text-xs font-mono shadow-neon-indigo cursor-pointer transition-all hover:scale-105"
           >
             Retry Match
           </button>
@@ -220,8 +220,8 @@ export const GameArenaPage: React.FC = () => {
   if (loading || !session) {
     return (
       <div className="min-h-[70vh] flex flex-col items-center justify-center space-y-4">
-        <div className="w-12 h-12 border-4 border-indigo-500 border-t-transparent rounded-full animate-spin"></div>
-        <p className="text-slate-400 font-mono text-sm tracking-wider">INITIALIZING GAME ARENA...</p>
+        <div className="w-14 h-14 border-4 border-violet-500 border-t-cyan-400 rounded-full animate-spin"></div>
+        <p className="text-slate-300 font-mono text-xs tracking-widest animate-pulse">INITIALIZING GAME ARENA...</p>
       </div>
     );
   }
@@ -230,22 +230,25 @@ export const GameArenaPage: React.FC = () => {
   const isSurvival = session.mode === 'SURVIVAL';
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 space-y-6">
+    <div className="relative max-w-4xl mx-auto px-4 py-8 space-y-6">
+      {/* Ambient background glow */}
+      <div className="ambient-orb-1 top-0 left-1/4"></div>
+
       {/* Arena Top Bar */}
-      <div className="glass-panel p-4 rounded-2xl flex items-center justify-between border border-slate-800">
+      <div className="glass-panel p-4 sm:p-5 rounded-2xl flex items-center justify-between border border-white/10 backdrop-blur-xl animate-fadeInUp">
         <div className="flex items-center gap-3">
-          <span className="font-mono text-xs font-bold text-slate-400">
+          <span className="font-mono text-xs font-black text-slate-300 bg-slate-900/90 px-3 py-1.5 rounded-xl border border-slate-800">
             QUESTION {currentIndex + 1} / {session.questions.length}
           </span>
-          <span className="bg-slate-800 text-cyan-400 text-xs px-2.5 py-0.5 rounded font-mono font-bold">
+          <span className="bg-gradient-to-r from-violet-600/30 to-cyan-600/30 text-cyan-300 text-xs px-3 py-1.5 rounded-xl font-mono font-bold border border-cyan-500/30">
             {currentQ.task.difficulty}
           </span>
           {isSurvival && (
-            <div className="flex items-center gap-1 ml-2">
+            <div className="flex items-center gap-1.5 ml-2 bg-rose-950/40 border border-rose-800/50 px-2.5 py-1 rounded-xl">
               {[...Array(3)].map((_, i) => (
                 <Heart 
                   key={i} 
-                  className={`w-5 h-5 ${i < lives ? 'text-rose-500 fill-rose-500' : 'text-slate-700'}`} 
+                  className={`w-4 h-4 transition-all duration-300 ${i < lives ? 'text-rose-500 fill-rose-500 animate-pulse' : 'text-slate-700'}`} 
                 />
               ))}
             </div>
@@ -254,35 +257,40 @@ export const GameArenaPage: React.FC = () => {
 
         <div className="flex items-center gap-4">
           <StreakFlame streak={currentStreak} />
-          <div className="flex items-center gap-1.5 bg-slate-900 px-3 py-1.5 rounded-xl border border-indigo-500/30">
-            <Zap className="w-4 h-4 text-amber-400" />
-            <span className="font-mono font-bold text-indigo-300 text-sm">{currentScore} pts</span>
+          <div className="flex items-center gap-1.5 bg-slate-900/90 px-3.5 py-1.5 rounded-xl border border-violet-500/40 shadow-neon-indigo">
+            <Zap className="w-4 h-4 text-amber-400 fill-amber-400" />
+            <span className="font-mono font-black text-violet-300 text-sm">{currentScore} pts</span>
           </div>
           <TimerRing timeRemaining={timeRemaining} totalTime={totalTime} size={54} />
         </div>
       </div>
 
       {/* Question Card */}
-      <div className="glass-panel-glow p-8 rounded-3xl border border-indigo-500/30 relative overflow-hidden space-y-6">
-        <h2 className="text-xl sm:text-2xl font-bold text-slate-100 leading-relaxed font-mono">
+      <div 
+        key={currentIndex}
+        className={`glass-panel-glow p-6 sm:p-9 rounded-3xl border border-violet-500/40 relative overflow-hidden space-y-7 animate-scaleIn shadow-cyber-border ${
+          answerResult && !answerResult.is_correct ? 'animate-shake border-rose-500/60' : ''
+        }`}
+      >
+        <h2 className="text-xl sm:text-2xl font-bold text-white leading-relaxed font-mono">
           {currentQ.task.question}
         </h2>
 
         {/* Answer Options Grid */}
-        <div className="grid grid-cols-1 gap-3.5 pt-2">
+        <div className="grid grid-cols-1 gap-3.5 pt-1">
           {currentQ.task.answers.map((ans, idx) => {
             const isSelected = selectedAnswerId === ans.id;
             const isAnswered = answerResult !== null;
             const isCorrect = isAnswered && ans.id === answerResult.correct_answer_id;
             const isWrongSelection = isAnswered && isSelected && !answerResult.is_correct;
 
-            let btnStyle = 'bg-slate-900/80 border-slate-800 text-slate-200 hover:border-indigo-500/50 hover:bg-slate-800/60';
+            let btnStyle = 'bg-slate-900/80 border-slate-800/80 text-slate-200 hover:border-violet-500/70 hover:bg-slate-800/90 hover:scale-[1.01] hover:shadow-neon-indigo';
             if (isCorrect) {
-              btnStyle = 'bg-emerald-950/80 border-emerald-500 text-emerald-100 shadow-neon-emerald';
+              btnStyle = 'bg-emerald-950/90 border-emerald-500 text-emerald-100 shadow-neon-emerald scale-[1.01] animate-bounceSoft';
             } else if (isWrongSelection) {
-              btnStyle = 'bg-rose-950/80 border-rose-500 text-rose-100 shadow-neon-rose';
+              btnStyle = 'bg-rose-950/90 border-rose-500 text-rose-100 shadow-neon-rose';
             } else if (isAnswered) {
-              btnStyle = 'bg-slate-900/40 border-slate-800/40 text-slate-500 opacity-60';
+              btnStyle = 'bg-slate-900/40 border-slate-800/40 text-slate-500 opacity-50';
             }
 
             return (
@@ -293,17 +301,17 @@ export const GameArenaPage: React.FC = () => {
                   const timeSpent = Math.min(totalTime, (Date.now() - questionStartTimeRef.current) / 1000);
                   submitCurrentAnswer(ans.id, timeSpent);
                 }}
-                className={`w-full p-4 rounded-2xl border text-left flex items-center justify-between transition-all duration-200 cursor-pointer ${btnStyle}`}
+                className={`w-full p-4 sm:p-5 rounded-2xl border text-left flex items-center justify-between transition-all duration-200 cursor-pointer ${btnStyle}`}
               >
-                <div className="flex items-center gap-3.5">
-                  <span className="w-8 h-8 rounded-xl bg-slate-800 border border-slate-700 flex items-center justify-center text-xs font-mono font-bold text-slate-300">
+                <div className="flex items-center gap-4">
+                  <span className="w-8 h-8 rounded-xl bg-slate-800/90 border border-slate-700 flex items-center justify-center text-xs font-mono font-black text-slate-300 shrink-0">
                     {idx + 1}
                   </span>
-                  <span className="text-sm sm:text-base font-medium">{ans.text}</span>
+                  <span className="text-sm sm:text-base font-medium leading-snug">{ans.text}</span>
                 </div>
 
-                {isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0" />}
-                {isWrongSelection && <XCircle className="w-5 h-5 text-rose-400 shrink-0" />}
+                {isCorrect && <CheckCircle2 className="w-5 h-5 text-emerald-400 shrink-0 ml-2" />}
+                {isWrongSelection && <XCircle className="w-5 h-5 text-rose-400 shrink-0 ml-2" />}
               </button>
             );
           })}
@@ -311,23 +319,25 @@ export const GameArenaPage: React.FC = () => {
 
         {/* Instant Answer Feedback & Explanation Drawer */}
         {answerResult && (
-          <div className="mt-6 p-5 rounded-2xl bg-slate-900/90 border border-slate-800 space-y-3 animate-fadeIn">
+          <div className="mt-6 p-5 sm:p-6 rounded-2xl bg-slate-900/95 border border-slate-700/80 space-y-3 animate-fadeInUp backdrop-blur-xl">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 {answerResult.is_correct ? (
-                  <span className="text-emerald-400 font-bold font-mono text-sm flex items-center gap-1.5">
-                    <CheckCircle2 className="w-4 h-4" /> CORRECT! +{answerResult.points_earned} PTS
+                  <span className="text-emerald-400 font-black font-mono text-sm sm:text-base flex items-center gap-2 glow-text-emerald">
+                    <Sparkles className="w-5 h-5 text-emerald-400 animate-spin-slow" /> 
+                    CORRECT! +{answerResult.points_earned} PTS
                   </span>
                 ) : (
-                  <span className="text-rose-400 font-bold font-mono text-sm flex items-center gap-1.5">
-                    <XCircle className="w-4 h-4" /> INCORRECT
+                  <span className="text-rose-400 font-black font-mono text-sm sm:text-base flex items-center gap-2">
+                    <XCircle className="w-5 h-5 text-rose-400 animate-pulse" /> 
+                    INCORRECT
                   </span>
                 )}
               </div>
 
               <button
                 onClick={handleNext}
-                className="flex items-center gap-2 px-5 py-2 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold text-xs shadow-neon-indigo transition-all cursor-pointer"
+                className="flex items-center gap-2 px-6 py-2.5 rounded-xl bg-gradient-to-r from-violet-600 via-fuchsia-600 to-cyan-500 hover:from-violet-500 hover:to-cyan-400 text-white font-bold text-xs font-mono shadow-neon-indigo transition-all hover:scale-105 cursor-pointer"
               >
                 {answerResult.is_game_over || currentIndex + 1 >= session.questions.length ? 'View Results' : 'Next Question'}
                 <ArrowRight className="w-4 h-4" />
@@ -335,8 +345,8 @@ export const GameArenaPage: React.FC = () => {
             </div>
 
             {answerResult.explanation && (
-              <p className="text-xs text-slate-400 leading-relaxed pt-2 border-t border-slate-800">
-                <strong className="text-slate-300">Explanation: </strong> {answerResult.explanation}
+              <p className="text-xs sm:text-sm text-slate-300 leading-relaxed pt-3 border-t border-slate-800">
+                <strong className="text-cyan-300">Explanation: </strong> {answerResult.explanation}
               </p>
             )}
           </div>
