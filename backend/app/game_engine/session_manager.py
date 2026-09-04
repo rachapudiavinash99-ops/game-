@@ -22,7 +22,7 @@ class GameSessionManager:
         mode: str = "QUICK_CHALLENGE",
         topic_id: Optional[int] = None,
         difficulty: Optional[str] = None,
-        question_count: int = 5
+        question_count: int = 10
     ) -> GameSession:
         """Initialize and persist a new game session with selected task sequence."""
         if mode == GameMode.SURVIVAL.value:

@@ -9,7 +9,7 @@ class CreateRoomRequest(BaseModel):
     topic_id: Optional[int] = None
     difficulty: str = "MEDIUM"
     max_players: int = 4
-    question_count: int = 5
+    question_count: int = 10
     time_per_question: int = 15
 
 

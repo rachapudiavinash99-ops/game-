@@ -8,7 +8,7 @@ class StartGameRequest(BaseModel):
     mode: str = "QUICK_CHALLENGE"  # QUICK_CHALLENGE, TOPIC_CHALLENGE, TIME_ATTACK, SURVIVAL
     topic_id: Optional[int] = None
     difficulty: Optional[str] = None
-    question_count: int = 5
+    question_count: int = 10
 
 
 class SubmitAnswerRequest(BaseModel):

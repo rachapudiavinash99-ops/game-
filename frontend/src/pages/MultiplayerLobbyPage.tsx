@@ -45,7 +45,7 @@ export const MultiplayerLobbyPage: React.FC = () => {
         topic_id: selectedTopicId ? Number(selectedTopicId) : null,
         difficulty: selectedDifficulty,
         max_players: 4,
-        question_count: 5,
+        question_count: 10,
         time_per_question: 15
       });
       setShowCreateModal(false);

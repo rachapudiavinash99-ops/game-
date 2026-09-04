@@ -48,7 +48,7 @@ export const GameArenaPage: React.FC = () => {
 
     const reqPayload: any = {
       mode: activeMode,
-      question_count: activeMode === 'SURVIVAL' ? 20 : (activeMode === 'TIME_ATTACK' ? 25 : 5),
+      question_count: activeMode === 'SURVIVAL' ? 20 : (activeMode === 'TIME_ATTACK' ? 25 : 10),
     };
     if (topicId) reqPayload.topic_id = parseInt(topicId);
     if (difficulty) reqPayload.difficulty = difficulty;
