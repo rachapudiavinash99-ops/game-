@@ -1,5 +1,5 @@
 """
-Seed Data for GAMEVERSE Platform.
+Seed Data for Test Your Knowledge Platform.
 Pre-populates 15 Topic categories with 20 authentic challenge tasks each (300 tasks total),
 initial badges/achievements, and demo player accounts.
 """
@@ -99,7 +99,7 @@ TOPICS_DATA = [   {   'color': '#3b82f6',
 ACHIEVEMENTS_DATA = [   {   'badge_color': '#3b82f6',
         'category': 'general',
         'code': 'FIRST_GAME',
-        'description': 'Play and finish your very first game session in GameVerse.',
+        'description': 'Play and finish your very first game session in Test Your Knowledge.',
         'icon': 'Footprints',
         'requirement_type': 'games_played',
         'requirement_value': 1,

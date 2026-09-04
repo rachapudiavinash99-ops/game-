@@ -51,7 +51,7 @@ export const RegisterPage: React.FC = () => {
             CREATE PLAYER ACCOUNT
           </h2>
           <p className="text-sm text-slate-400">
-            Join the GameVerse arena and earn XP
+            Join the Test Your Knowledge arena and earn XP
           </p>
         </div>
 

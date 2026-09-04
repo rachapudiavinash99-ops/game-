@@ -1,4 +1,4 @@
-# GAMEVERSE â€” Modern Python Full-Stack Gaming Platform
+# Test Your Knowledge â€” Modern Python Full-Stack Gaming Platform
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-blue.svg?logo=python)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com/)
@@ -12,7 +12,7 @@
 
 ## 1. Project Overview
 
-**GAMEVERSE** is an authoritative, end-to-end Python full-stack gaming and challenge platform. Built with a **FastAPI** backend and a modern **React 18 + TypeScript + Vite + Tailwind CSS** frontend, GAMEVERSE offers single-player challenge arenas and real-time multiplayer WebSocket battles across 15+ dynamic knowledge domains.
+**Test Your Knowledge** is an authoritative, end-to-end Python full-stack gaming and challenge platform. Built with a **FastAPI** backend and a modern **React 18 + TypeScript + Vite + Tailwind CSS** frontend, Test Your Knowledge offers single-player challenge arenas and real-time multiplayer WebSocket battles across 15+ dynamic knowledge domains.
 
 ---
 
@@ -60,7 +60,7 @@
 
 ## 4. Extensible Topic & Task Engine
 
-GAMEVERSE is built with an unlimited task creation engine. Administrators can continuously add topics, categories, difficulties, and questions with explanations without changing any game logic.
+Test Your Knowledge is built with an unlimited task creation engine. Administrators can continuously add topics, categories, difficulties, and questions with explanations without changing any game logic.
 
 ### 15 Seeded Topic Universes:
 - **Python Programming** (Syntax, OOP, GIL, Asyncio, Memory Internals)
@@ -87,12 +87,15 @@ GAMEVERSE is built with an unlimited task creation engine. Administrators can co
 $$	ext{Base Score} = egin{cases} 10 & 	ext{EASY} \ 20 & 	ext{MEDIUM} \ 35 & 	ext{HARD} \ 50 & 	ext{EXPERT} \end{cases}$$
 
 ### Speed Bonus & Streak Multiplier:
-$$	ext{Speed Bonus} = 	ext{round}\left( rac{	ext{Time Remaining}}{	ext{Total Time}} 	imes 15 ight)$$
+$$	ext{Speed Bonus} = 	ext{round}\left( rac{	ext{Time Remaining}}{	ext{Total Time}} 	imes 15 
+ight)$$
 $$	ext{Streak Multiplier} = \min(2.5, 1.0 + (	ext{Streak} 	imes 0.1))$$
-$$	ext{Final Question Points} = \lceil (	ext{Base} + 	ext{Speed Bonus}) 	imes 	ext{Streak Multiplier} ceil$$
+$$	ext{Final Question Points} = \lceil (	ext{Base} + 	ext{Speed Bonus}) 	imes 	ext{Streak Multiplier} 
+ceil$$
 
 ### Level Progression Threshold:
-$$	ext{XP Required for Level } L = 	ext{round}\left( 100 	imes L^{1.5} ight)$$
+$$	ext{XP Required for Level } L = 	ext{round}\left( 100 	imes L^{1.5} 
+ight)$$
 
 ---
 

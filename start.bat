@@ -1,6 +1,6 @@
 @echo off
 echo ===================================================
-echo        Starting GAMEVERSE Full-Stack Platform
+echo        Starting TEST YOUR KNOWLEDGE Full-Stack Platform
 echo ===================================================
 
 echo [1/2] Launching FastAPI Backend on http://localhost:8008...
@@ -13,7 +13,7 @@ start cmd /k "set PATH=C:\Users\Hi\AppData\Local\Programs\nodejs;%PATH% && cd /d
 
 echo.
 echo ===================================================
-echo GAMEVERSE is running!
+echo TEST YOUR KNOWLEDGE is running!
 echo Frontend: http://localhost:5174
 echo API Docs: http://localhost:8008/docs
 echo ===================================================

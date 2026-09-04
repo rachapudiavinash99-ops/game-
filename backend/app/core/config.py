@@ -5,7 +5,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "GAMEVERSE - Full-Stack Gaming Platform"
+    PROJECT_NAME: str = "Test Your Knowledge - Full-Stack Gaming Platform"
     VERSION: str = "1.0.0"
     DESCRIPTION: str = "Topic-based challenge and competitive gaming platform"
     API_V1_STR: str = "/api/v1"

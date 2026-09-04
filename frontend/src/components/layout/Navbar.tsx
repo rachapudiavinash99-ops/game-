@@ -42,7 +42,7 @@ export const Navbar: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className="font-black text-xl tracking-wider text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-300 to-emerald-400 font-mono">
-                GAMEVERSE
+                TEST YOUR KNOWLEDGE
               </span>
               <span className="text-[10px] text-slate-400 tracking-widest uppercase font-semibold -mt-1">
                 Battle & Challenges
